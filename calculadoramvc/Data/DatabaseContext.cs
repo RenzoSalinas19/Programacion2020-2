@@ -12,6 +12,7 @@ namespace calculadoramvc.Data
         {
         }
 
-         public DbSet<calculadoramvc.Models.Contacto> Contactos { get; set; }
+        public DbSet<calculadoramvc.Models.Contacto> Contactos { get; set; }
+        public DbSet<calculadoramvc.Models.Registrar> Registrar { get; set; }
     }
 }
